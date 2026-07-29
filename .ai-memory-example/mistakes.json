@@ -1,0 +1,11 @@
+[
+  {
+    "id": "missing_await_db",
+    "category": "async",
+    "title": "Async DB çağırışlarında await unudulması",
+    "description": "Verilənlər bazası CRUD əməliyyatlarında asinxron funksiyaları (məs. session.execute) await etmədən qaytarmaq.",
+    "correction": "Həmişə async I/O əməliyyatlarının qarşısına await əlavə et: result = await session.execute(stmt)",
+    "frequency_count": 2,
+    "last_seen": "2026-07-15T09:30:00Z"
+  }
+]

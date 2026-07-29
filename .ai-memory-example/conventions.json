@@ -1,0 +1,12 @@
+{
+  "naming": {
+    "functions": "snake_case",
+    "classes": "PascalCase",
+    "constants": "UPPER_SNAKE_CASE"
+  },
+  "libraries": {
+    "api": "FastAPI",
+    "orm": "SQLAlchemy",
+    "cli": "Typer"
+  }
+}

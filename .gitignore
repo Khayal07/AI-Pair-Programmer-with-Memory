@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Project Specific
+.ai-memory/
+!.ai-memory-example/
+
+# IDE
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,11 @@
+{
+  "id": "err_handling_custom_exceptions",
+  "category": "error_handling",
+  "title": "FastAPI üçün xüsusi HTTPException istifadəsi",
+  "description": "Əməliyyat xətalarında raw Exception yerinə strukturlaşdırılmış AppBaseException klassından istifadə edir.",
+  "example_snippet": "raise UserNotFoundException(user_id=123)",
+  "weight": 1.0,
+  "frequency_count": 5,
+  "first_seen": "2026-07-01T10:00:00Z",
+  "last_seen": "2026-07-30T14:20:00Z"
+}
